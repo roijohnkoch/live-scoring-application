@@ -4,3 +4,5 @@ const user = [
     name: 'roi',
   }
 ]
+
+export { user };

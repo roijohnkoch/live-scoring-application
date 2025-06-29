@@ -37,3 +37,5 @@ interface Score {
   period1: number;
   normaltime: number;
 }
+
+export type { Sport, Status, Team, Score };
