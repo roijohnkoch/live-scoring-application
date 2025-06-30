@@ -5,17 +5,17 @@ interface Sport {
   competition: string;
   countryId: string;
   country: string;
-  timestamp: number;
-  date: string;
-  time: string;
-  status: Status,
-  round:{
-    round: number;
-  },
-  homeTeam: Team;
-  awayTeam: Team;
-  homeScore: Score;
-  awayScore: Score;
+  // timestamp: number;
+  // date: string;
+  // time: string;
+  // status: Status,
+  // round:{
+  //   round: number;
+  // },
+  // homeTeam: Team;
+  // awayTeam: Team;
+  // homeScore: Score;
+  // awayScore: Score;
   liveStatus: string;
 }
 
