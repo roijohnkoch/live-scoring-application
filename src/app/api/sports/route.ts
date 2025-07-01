@@ -37,6 +37,7 @@ export async function GET() {
     });
     return new Response(JSON.stringify(formattedData), { status: 200  });
   } catch (error) {
+    console.log(error);
     throw new Error('Failed to fetch sports data.');
   }
 }

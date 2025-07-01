@@ -28,4 +28,6 @@ const Scores: React.FC<ScoresProps> = memo(({ homeScoreCurrent, awayScoreCurrent
   )
 });
 
+Scores.displayName = "Scores";
+
 export default Scores;

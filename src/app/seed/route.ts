@@ -1,9 +1,8 @@
 // import bcrypt from 'bcrypt';
 import postgres from 'postgres';
-import { users, sportsData } from "@/lib/api/placeholder-data";
+import { sportsData } from "@/lib/api/placeholder-data";
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
-
 
 async function seedSportsData() {
   await sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
@@ -88,16 +87,6 @@ async function seedSportsData() {
     })
   );
   return insertedSportsData;
-}
-
-async function seedHomeTeams() {
-  await sql`CREATE EXTENSION IF NOT EXISTS "uuid-ossp"`;
-  await sql`DROP TABLE IF EXISTS sports`;
-  await sql`
-    CREATE TABLE home_team (
-      id 
-    )
-  `;
 }
 
 export async function GET() {
