@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About The Project
+
+### Built With
+
+* [Next.js](https://nextjs.org) with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)
+* [React.js](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [styled-components](https://styled-components.com/)
 
 ## Getting Started
 
-First, run the development server:
+### Running the application locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository
+   ```sh
+   git clone https://github.com/roijohnkoch/live-scoring-application.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run locally
+   ```sh
+   npm run dev
+   ```
+5. In your browser, open [http://localhost:3000/seed](http://localhost:3000). This is to seed data into the database and later will load in your web application.
+4. Open [http://localhost:3000](http://localhost:3000) to see the result with the seeded data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running deployed application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application is deployed in [Vercel](https://vercel.com/).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Open [https://live-scoring-application.vercel.app/seed](https://live-scoring-application.vercel.app/seed) in your browser. This is to seed data into the database and later will load in your web application.
+2. Open [https://live-scoring-application.vercel.app/](https://live-scoring-application.vercel.app/) to see the result with the seeded data.
 
-## Learn More
+### Running test
 
-To learn more about Next.js, take a look at the following resources:
+Added a very basic test to showcase knowledge in unit testing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Run the script for test
+   ```sh
+   npm run test
+   ```
