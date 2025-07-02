@@ -23,14 +23,14 @@
    ```sh
    npm run dev
    ```
-5. In your browser, open [http://localhost:3000/seed](http://localhost:3000). This is to seed data into the database and later will load in your web application.
+5. In your browser, open [http://localhost:3000/seed](http://localhost:3000). This is to seed data into the database and later will load in your web application. You should see `"message":"Database seeded successfully"` once done.
 4. Open [http://localhost:3000](http://localhost:3000) to see the result with the seeded data.
 
 ### Running deployed application
 
 The application is deployed in [Vercel](https://vercel.com/).
 
-1. Open [https://live-scoring-application.vercel.app/seed](https://live-scoring-application.vercel.app/seed) in your browser. This is to seed data into the database and later will load in your web application.
+1. Open [https://live-scoring-application.vercel.app/seed](https://live-scoring-application.vercel.app/seed) in your browser. This is to seed data into the database and later will load in your web application. You should see `"message":"Database seeded successfully"` once done.
 2. Open [https://live-scoring-application.vercel.app/](https://live-scoring-application.vercel.app/) to see the result with the seeded data.
 
 ### Running test
