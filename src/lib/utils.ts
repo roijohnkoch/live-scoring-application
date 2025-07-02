@@ -20,3 +20,10 @@ const getDayWithSuffix = (day: number) => {
     default: return `${day}TH`;
   }
 };
+
+export const filterOptions = [
+  { label: 'All', value: 'all' },
+  { label: 'Result', value: 'finished' },
+  { label: 'Live', value: 'inprogress' },
+  { label: 'Upcoming', value: 'notstarted' },
+];

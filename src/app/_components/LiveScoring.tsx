@@ -10,6 +10,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   max-width: calc(100% - 24px);
   justify-content: center;
+  margin-top: 16px;
 `;
 
 const Details = styled.div`
@@ -19,6 +20,7 @@ const Details = styled.div`
   color: #fff;
   align-items: center;
   width: 500px;
+  padding: 24px 0;
 `;
 
 const Status = styled.div<{ type: string }>`
